@@ -1,0 +1,46 @@
+# Build output directories
+/Debug/
+/Release/
+/build/
+
+# Eclipse / STM32CubeIDE user settings & launch configurations
+/.settings/
+*.launch
+.autotools
+.cproject.user
+
+# Object & dependency build artifacts
+*.o
+*.d
+*.su
+*.cyclo
+
+# Compiled binary outputs & linker maps
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Python bytecode & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Local data captures & generated calibration outputs
+/mag_data/
+*.csv
+*.txt
+!requirements.txt
+!**/requirements.txt
+mag_calibration.json
+*.png
+!images/*.png
+!docs/*.png
+
+# System & OS metadata
+.DS_Store
+Thumbs.db
